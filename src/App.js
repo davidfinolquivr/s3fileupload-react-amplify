@@ -55,12 +55,12 @@ const App = () => {
         slot='sign-in'
       />
       <AmplifySignUp
-        headerText='QUIVR AI Automated Workflow Detection Sign-In'
+        headerText='QUIVR AI Automated Workflow Detection Sign-Up'
         slot='sign-up'
       />
       <div className='header'>
         <h2>
-          <a href='/'>TCS Team Video Uploader</a>
+          <a href='/'>Point-of-Interest Detection Video Uploader</a>
         </h2>
       </div>
       <div className='video-uploader'>
