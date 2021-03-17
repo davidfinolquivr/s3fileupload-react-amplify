@@ -11,6 +11,7 @@ import { MdSend /* MdList */ } from 'react-icons/md'
 import awsConfig from './aws-exports'
 Amplify.configure(awsConfig)
 
+
 const App = () => {
   const [name, setName] = useState('')
   const [file, setFile] = useState('')
@@ -33,7 +34,7 @@ const App = () => {
       })
         .then((result) => {
           console.log(result)
-          setResponse(`Success uploading file: ${name}!`)
+          setResponse(`Success uploading file: ${name}! We will follw up by email within 24 hrs with more information.`)
         })
         .then(() => {
           document.getElementById('file-input').value = null
