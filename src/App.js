@@ -34,7 +34,7 @@ const App = () => {
       })
         .then((result) => {
           console.log(result)
-          setResponse(`Success uploading file: ${name}! We will follw up by email within 24 hrs with more information.`)
+          setResponse(`Success uploading file: ${name}! We will follow up by email within 24 hrs with more information.`)
         })
         .then(() => {
           document.getElementById('file-input').value = null
